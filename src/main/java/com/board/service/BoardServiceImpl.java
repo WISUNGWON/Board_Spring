@@ -28,4 +28,10 @@ public void write(BoardVO vo) throws Exception {
 	
 }
 
+@Override
+public BoardVO view(int bno) throws Exception {
+	
+	return dao.view(bno);
+}
+
 }
